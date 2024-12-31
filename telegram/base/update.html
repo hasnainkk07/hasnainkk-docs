@@ -1,0 +1,1633 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../_static/fav.svg">
+    
+    
+      
+        <title>Update - Electrogram Docs</title>
+      
+    
+    
+      
+        
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+        <link rel="stylesheet" type="text/css" href="../../_static/sphinx_immaterial_theme.4b4a8c74e2ff2ab5b.min.css?v=afa97f93" />
+        <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+        <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css?v=69911f28" />
+        <link rel="stylesheet" type="text/css" href="../../_static/css/all.min.css?v=c9188041" />
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../index.html" title="Electrogram Docs" class="md-header__button md-logo" aria-label="Electrogram Docs" data-md-component="logo">
+      <img src="https://github.com/5hojib/5hojib/raw/main/images/book.gif" alt="logo">
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Electrogram Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Update
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/5hojib/Electrogram/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Electrogram
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../intro/quickstart.html" class="md-tabs__link">
+      <span class="md-ellipsis">Introduction</span>
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../start/setup.html" class="md-tabs__link">
+      <span class="md-ellipsis">Getting Started</span>
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../api/client.html" class="md-tabs__link">
+      <span class="md-ellipsis">API Reference</span>
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../topics/use-filters.html" class="md-tabs__link">
+      <span class="md-ellipsis">Topic Guides</span>
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../faq/index.html" class="md-tabs__link">
+      <span class="md-ellipsis">Meta</span>
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../functions/index.html" class="md-tabs__link">
+      <span class="md-ellipsis">Telegram Raw API</span>
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../index.html" title="Electrogram Docs" class="md-nav__button md-logo" aria-label="Electrogram Docs" data-md-component="logo">
+      <img src="https://github.com/5hojib/5hojib/raw/main/images/book.gif" alt="logo">
+    </a>
+    Electrogram Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/5hojib/Electrogram/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Electrogram
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          <span class="md-ellipsis">Introduction</span>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          <span class="md-ellipsis">Introduction</span>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../intro/quickstart.html" class="md-nav__link">
+        <span class="md-ellipsis">Quick Start</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../intro/install.html" class="md-nav__link">
+        <span class="md-ellipsis">Install Guide</span>
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          <span class="md-ellipsis">Getting Started</span>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          <span class="md-ellipsis">Getting Started</span>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/setup.html" class="md-nav__link">
+        <span class="md-ellipsis">Project Setup</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/auth.html" class="md-nav__link">
+        <span class="md-ellipsis">Authorization</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/invoking.html" class="md-nav__link">
+        <span class="md-ellipsis">Invoking Methods</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/updates.html" class="md-nav__link">
+        <span class="md-ellipsis">Handling Updates</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/errors.html" class="md-nav__link">
+        <span class="md-ellipsis">Error Handling</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/examples/index.html" class="md-nav__link">
+        <span class="md-ellipsis">Examples</span>
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          <span class="md-ellipsis">API Reference</span>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="API Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          <span class="md-ellipsis">API Reference</span>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/client.html" class="md-nav__link">
+        <span class="md-ellipsis">Electrogram Client</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/methods/index.html" class="md-nav__link">
+        <span class="md-ellipsis">Available Methods</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/types/index.html" class="md-nav__link">
+        <span class="md-ellipsis">Available Types</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/bound-methods/index.html" class="md-nav__link">
+        <span class="md-ellipsis">Bound Methods</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/enums/index.html" class="md-nav__link">
+        <span class="md-ellipsis">Enumerations</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/handlers.html" class="md-nav__link">
+        <span class="md-ellipsis">Update Handlers</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/decorators.html" class="md-nav__link">
+        <span class="md-ellipsis">Decorators</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/errors/index.html" class="md-nav__link">
+        <span class="md-ellipsis">RPC Errors</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/filters.html" class="md-nav__link">
+        <span class="md-ellipsis">Update Filters</span>
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          <span class="md-ellipsis">Topic Guides</span>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Topic Guides" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          <span class="md-ellipsis">Topic Guides</span>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/use-filters.html" class="md-nav__link">
+        <span class="md-ellipsis">Using Filters</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/create-filters.html" class="md-nav__link">
+        <span class="md-ellipsis">Creating Filters</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/more-on-updates.html" class="md-nav__link">
+        <span class="md-ellipsis">More on Updates</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/client-settings.html" class="md-nav__link">
+        <span class="md-ellipsis">Client Settings</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/text-formatting.html" class="md-nav__link">
+        <span class="md-ellipsis">Text Formatting</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/synchronous.html" class="md-nav__link">
+        <span class="md-ellipsis">Synchronous Usage</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/smart-plugins.html" class="md-nav__link">
+        <span class="md-ellipsis">Smart Plugins</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/storage-engines.html" class="md-nav__link">
+        <span class="md-ellipsis">Storage Engines</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/serializing.html" class="md-nav__link">
+        <span class="md-ellipsis">Object Serialization</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/proxy.html" class="md-nav__link">
+        <span class="md-ellipsis">Proxy Settings</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/scheduling.html" class="md-nav__link">
+        <span class="md-ellipsis">Scheduling Tasks</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/mtproto-vs-botapi.html" class="md-nav__link">
+        <span class="md-ellipsis">MTProto vs.<wbr> Bot API</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/debugging.html" class="md-nav__link">
+        <span class="md-ellipsis">Debugging</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/test-servers.html" class="md-nav__link">
+        <span class="md-ellipsis">Test Servers</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/advanced-usage.html" class="md-nav__link">
+        <span class="md-ellipsis">Advanced Usage</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/voice-calls.html" class="md-nav__link">
+        <span class="md-ellipsis">Voice Calls</span>
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          <span class="md-ellipsis">Meta</span>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Meta" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          <span class="md-ellipsis">Meta</span>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/index.html" class="md-nav__link">
+        <span class="md-ellipsis">Frequently Asked Questions</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../support.html" class="md-nav__link">
+        <span class="md-ellipsis">Support Electrogram</span>
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          <span class="md-ellipsis">Telegram Raw API</span>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Telegram Raw API" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          <span class="md-ellipsis">Telegram Raw API</span>
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functions/index.html" class="md-nav__link">
+        <span class="md-ellipsis">Raw Functions</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../types/index.html" class="md-nav__link">
+        <span class="md-ellipsis">Raw Types</span>
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        <span class="md-ellipsis">Raw Base</span>
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset" role="main">
+                  
+
+
+<h1 id="update">Update</h1>
+<dl class="py class objdesc">
+<dt class="sig sig-object highlight py" id="pyrogram.raw.base.Update">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyrogram.raw.base.</span></span><span class="sig-name descname"><span class="pre">Update</span></span></dt>
+<dd><p>Object contains info on events occurred.</p>
+<dl>
+<dt>Constructors:</dt><dd><p>This base type has 144 constructors available.</p>
+<table class="autosummary longtable docutils data align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-attach-menu-bots.html#pyrogram.raw.types.UpdateAttachMenuBots" title="pyrogram.raw.types.UpdateAttachMenuBots (Python class) — The list of installed attachment menu entries » has changed, use messages.getAttachMenuBots to fetch the updated list."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateAttachMenuBots</span></code></a></p></td>
+<td><p>The list of installed attachment menu entries » has changed, use messages.getAttachMenuBots to fetch the updated list.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-auto-save-settings.html#pyrogram.raw.types.UpdateAutoSaveSettings" title="pyrogram.raw.types.UpdateAutoSaveSettings (Python class) — Media autosave settings have changed and must be refetched using account.getAutoSaveSettings."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateAutoSaveSettings</span></code></a></p></td>
+<td><p>Media autosave settings have changed and must be refetched using account.getAutoSaveSettings.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-business-connect.html#pyrogram.raw.types.UpdateBotBusinessConnect" title="pyrogram.raw.types.UpdateBotBusinessConnect (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotBusinessConnect</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-callback-query.html#pyrogram.raw.types.UpdateBotCallbackQuery" title="pyrogram.raw.types.UpdateBotCallbackQuery (Python class) — A callback button was pressed, and the button data was sent to the bot that created the button"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotCallbackQuery</span></code></a></p></td>
+<td><p>A callback button was pressed, and the button data was sent to the bot that created the button</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-chat-boost.html#pyrogram.raw.types.UpdateBotChatBoost" title="pyrogram.raw.types.UpdateBotChatBoost (Python class) — A channel boost has changed (bots only)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotChatBoost</span></code></a></p></td>
+<td><p>A channel boost has changed (bots only)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-chat-invite-requester.html#pyrogram.raw.types.UpdateBotChatInviteRequester" title="pyrogram.raw.types.UpdateBotChatInviteRequester (Python class) — Someone has requested to join a chat or channel (bots only, users will receive an updatePendingJoinRequests, instead)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotChatInviteRequester</span></code></a></p></td>
+<td><p>Someone has requested to join a chat or channel (bots only, users will receive an updatePendingJoinRequests, instead)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-commands.html#pyrogram.raw.types.UpdateBotCommands" title="pyrogram.raw.types.UpdateBotCommands (Python class) — The command set of a certain bot in a certain chat has changed."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotCommands</span></code></a></p></td>
+<td><p>The command set of a certain bot in a certain chat has changed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-delete-business-message.html#pyrogram.raw.types.UpdateBotDeleteBusinessMessage" title="pyrogram.raw.types.UpdateBotDeleteBusinessMessage (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotDeleteBusinessMessage</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-edit-business-message.html#pyrogram.raw.types.UpdateBotEditBusinessMessage" title="pyrogram.raw.types.UpdateBotEditBusinessMessage (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotEditBusinessMessage</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-inline-query.html#pyrogram.raw.types.UpdateBotInlineQuery" title="pyrogram.raw.types.UpdateBotInlineQuery (Python class) — An incoming inline query"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotInlineQuery</span></code></a></p></td>
+<td><p>An incoming inline query</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-inline-send.html#pyrogram.raw.types.UpdateBotInlineSend" title="pyrogram.raw.types.UpdateBotInlineSend (Python class) — The result of an inline query that was chosen by a user and sent to their chat partner. Please see our documentation on the feedback collecting for details on how to enable these updates for your bot."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotInlineSend</span></code></a></p></td>
+<td><p>The result of an inline query that was chosen by a user and sent to their chat partner.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-menu-button.html#pyrogram.raw.types.UpdateBotMenuButton" title="pyrogram.raw.types.UpdateBotMenuButton (Python class) — The menu button behavior for the specified bot has changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotMenuButton</span></code></a></p></td>
+<td><p>The menu button behavior for the specified bot has changed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-message-reaction.html#pyrogram.raw.types.UpdateBotMessageReaction" title="pyrogram.raw.types.UpdateBotMessageReaction (Python class) — Bots only: a user has changed their reactions on a message with public reactions."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotMessageReaction</span></code></a></p></td>
+<td><p>Bots only: a user has changed their reactions on a message with public reactions.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-message-reactions.html#pyrogram.raw.types.UpdateBotMessageReactions" title="pyrogram.raw.types.UpdateBotMessageReactions (Python class) — Bots only: the number of reactions on a message with anonymous reactions has changed."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotMessageReactions</span></code></a></p></td>
+<td><p>Bots only: the number of reactions on a message with anonymous reactions has changed.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-new-business-message.html#pyrogram.raw.types.UpdateBotNewBusinessMessage" title="pyrogram.raw.types.UpdateBotNewBusinessMessage (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotNewBusinessMessage</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-precheckout-query.html#pyrogram.raw.types.UpdateBotPrecheckoutQuery" title="pyrogram.raw.types.UpdateBotPrecheckoutQuery (Python class) — This object contains information about an incoming pre-checkout query."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotPrecheckoutQuery</span></code></a></p></td>
+<td><p>This object contains information about an incoming pre-checkout query.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-purchased-paid-media.html#pyrogram.raw.types.UpdateBotPurchasedPaidMedia" title="pyrogram.raw.types.UpdateBotPurchasedPaidMedia (Python class) — Telegram API type."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotPurchasedPaidMedia</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-shipping-query.html#pyrogram.raw.types.UpdateBotShippingQuery" title="pyrogram.raw.types.UpdateBotShippingQuery (Python class) — This object contains information about an incoming shipping query."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotShippingQuery</span></code></a></p></td>
+<td><p>This object contains information about an incoming shipping query.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-stopped.html#pyrogram.raw.types.UpdateBotStopped" title="pyrogram.raw.types.UpdateBotStopped (Python class) — A bot was stopped or re-started."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotStopped</span></code></a></p></td>
+<td><p>A bot was stopped or re-started.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-subscription-expire.html#pyrogram.raw.types.UpdateBotSubscriptionExpire" title="pyrogram.raw.types.UpdateBotSubscriptionExpire (Python class) — Telegram API type."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotSubscriptionExpire</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-webhook-json.html#pyrogram.raw.types.UpdateBotWebhookJSON" title="pyrogram.raw.types.UpdateBotWebhookJSON (Python class) — A new incoming event; for bots only"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotWebhookJSON</span></code></a></p></td>
+<td><p>A new incoming event; for bots only</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-webhook-json-query.html#pyrogram.raw.types.UpdateBotWebhookJSONQuery" title="pyrogram.raw.types.UpdateBotWebhookJSONQuery (Python class) — A new incoming query; for bots only"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotWebhookJSONQuery</span></code></a></p></td>
+<td><p>A new incoming query; for bots only</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-broadcast-revenue-transactions.html#pyrogram.raw.types.UpdateBroadcastRevenueTransactions" title="pyrogram.raw.types.UpdateBroadcastRevenueTransactions (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBroadcastRevenueTransactions</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-business-bot-callback-query.html#pyrogram.raw.types.UpdateBusinessBotCallbackQuery" title="pyrogram.raw.types.UpdateBusinessBotCallbackQuery (Python class) — Telegram API type."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBusinessBotCallbackQuery</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel.html#pyrogram.raw.types.UpdateChannel" title="pyrogram.raw.types.UpdateChannel (Python class) — A new channel or supergroup is available, or info about an existing channel has changed and must be refeteched."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannel</span></code></a></p></td>
+<td><p>A new channel or supergroup is available, or info about an existing channel has changed and must be refeteched.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-available-messages.html#pyrogram.raw.types.UpdateChannelAvailableMessages" title="pyrogram.raw.types.UpdateChannelAvailableMessages (Python class) — The history of a channel/supergroup was hidden."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelAvailableMessages</span></code></a></p></td>
+<td><p>The history of a channel/supergroup was hidden.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-message-forwards.html#pyrogram.raw.types.UpdateChannelMessageForwards" title="pyrogram.raw.types.UpdateChannelMessageForwards (Python class) — The forward counter of a message in a channel has changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelMessageForwards</span></code></a></p></td>
+<td><p>The forward counter of a message in a channel has changed</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-message-views.html#pyrogram.raw.types.UpdateChannelMessageViews" title="pyrogram.raw.types.UpdateChannelMessageViews (Python class) — The view counter of a message in a channel has changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelMessageViews</span></code></a></p></td>
+<td><p>The view counter of a message in a channel has changed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-participant.html#pyrogram.raw.types.UpdateChannelParticipant" title="pyrogram.raw.types.UpdateChannelParticipant (Python class) — A participant has left, joined, was banned or admined in a channel or supergroup."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelParticipant</span></code></a></p></td>
+<td><p>A participant has left, joined, was banned or admined in a channel or supergroup.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-pinned-topic.html#pyrogram.raw.types.UpdateChannelPinnedTopic" title="pyrogram.raw.types.UpdateChannelPinnedTopic (Python class) — A forum topic » was pinned or unpinned."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelPinnedTopic</span></code></a></p></td>
+<td><p>A forum topic » was pinned or unpinned.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-pinned-topics.html#pyrogram.raw.types.UpdateChannelPinnedTopics" title="pyrogram.raw.types.UpdateChannelPinnedTopics (Python class) — The pinned topics of a forum have changed."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelPinnedTopics</span></code></a></p></td>
+<td><p>The pinned topics of a forum have changed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-read-messages-contents.html#pyrogram.raw.types.UpdateChannelReadMessagesContents" title="pyrogram.raw.types.UpdateChannelReadMessagesContents (Python class) — The specified channel/supergroup messages were read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelReadMessagesContents</span></code></a></p></td>
+<td><p>The specified channel/supergroup messages were read</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-too-long.html#pyrogram.raw.types.UpdateChannelTooLong" title="pyrogram.raw.types.UpdateChannelTooLong (Python class) — There are new updates in the specified channel, the client must fetch them. If the difference is too long or if the channel isn't currently in the states, start fetching from the specified pts."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelTooLong</span></code></a></p></td>
+<td><p>There are new updates in the specified channel, the client must fetch them.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-user-typing.html#pyrogram.raw.types.UpdateChannelUserTyping" title="pyrogram.raw.types.UpdateChannelUserTyping (Python class) — A user is typing in a supergroup, channel or message thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelUserTyping</span></code></a></p></td>
+<td><p>A user is typing in a supergroup, channel or message thread</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-view-forum-as-messages.html#pyrogram.raw.types.UpdateChannelViewForumAsMessages" title="pyrogram.raw.types.UpdateChannelViewForumAsMessages (Python class) — Users may also choose to display messages from all topics as if they were sent to a normal group, using a &quot;View as messages&quot; setting in the local client. This setting only affects the current account, and is synced to other logged in sessions using the channels.toggleViewForumAsMessages method; invoking this method will update the value of the view_forum_as_messages flag of channelFull or dialog and emit an updateChannelViewForumAsMessages."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelViewForumAsMessages</span></code></a></p></td>
+<td><p>Users may also choose to display messages from all topics as if they were sent to a normal group, using a &quot;View as messages&quot; setting in the local client.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-web-page.html#pyrogram.raw.types.UpdateChannelWebPage" title="pyrogram.raw.types.UpdateChannelWebPage (Python class) — A webpage preview of a link in a channel/supergroup message was generated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelWebPage</span></code></a></p></td>
+<td><p>A webpage preview of a link in a channel/supergroup message was generated</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-chat.html#pyrogram.raw.types.UpdateChat" title="pyrogram.raw.types.UpdateChat (Python class) — A new chat is available"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChat</span></code></a></p></td>
+<td><p>A new chat is available</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-chat-default-banned-rights.html#pyrogram.raw.types.UpdateChatDefaultBannedRights" title="pyrogram.raw.types.UpdateChatDefaultBannedRights (Python class) — Default banned rights in a normal chat were updated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatDefaultBannedRights</span></code></a></p></td>
+<td><p>Default banned rights in a normal chat were updated</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-chat-participant.html#pyrogram.raw.types.UpdateChatParticipant" title="pyrogram.raw.types.UpdateChatParticipant (Python class) — A user has joined or left a specific chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipant</span></code></a></p></td>
+<td><p>A user has joined or left a specific chat</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-chat-participant-add.html#pyrogram.raw.types.UpdateChatParticipantAdd" title="pyrogram.raw.types.UpdateChatParticipantAdd (Python class) — New group member."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipantAdd</span></code></a></p></td>
+<td><p>New group member.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-chat-participant-admin.html#pyrogram.raw.types.UpdateChatParticipantAdmin" title="pyrogram.raw.types.UpdateChatParticipantAdmin (Python class) — Admin permissions of a user in a basic group were changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipantAdmin</span></code></a></p></td>
+<td><p>Admin permissions of a user in a basic group were changed</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-chat-participant-delete.html#pyrogram.raw.types.UpdateChatParticipantDelete" title="pyrogram.raw.types.UpdateChatParticipantDelete (Python class) — A member has left the group."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipantDelete</span></code></a></p></td>
+<td><p>A member has left the group.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-chat-participants.html#pyrogram.raw.types.UpdateChatParticipants" title="pyrogram.raw.types.UpdateChatParticipants (Python class) — Composition of chat participants changed."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipants</span></code></a></p></td>
+<td><p>Composition of chat participants changed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-chat-user-typing.html#pyrogram.raw.types.UpdateChatUserTyping" title="pyrogram.raw.types.UpdateChatUserTyping (Python class) — The user is preparing a message in a group; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatUserTyping</span></code></a></p></td>
+<td><p>The user is preparing a message in a group; typing, recording, uploading, etc.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-config.html#pyrogram.raw.types.UpdateConfig" title="pyrogram.raw.types.UpdateConfig (Python class) — The server-side configuration has changed; the client should re-fetch the config using help.getConfig"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateConfig</span></code></a></p></td>
+<td><p>The server-side configuration has changed; the client should re-fetch the config using help.getConfig</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-contacts-reset.html#pyrogram.raw.types.UpdateContactsReset" title="pyrogram.raw.types.UpdateContactsReset (Python class) — All contacts were deleted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateContactsReset</span></code></a></p></td>
+<td><p>All contacts were deleted</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-dc-options.html#pyrogram.raw.types.UpdateDcOptions" title="pyrogram.raw.types.UpdateDcOptions (Python class) — Changes in the data center configuration options."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDcOptions</span></code></a></p></td>
+<td><p>Changes in the data center configuration options.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-delete-channel-messages.html#pyrogram.raw.types.UpdateDeleteChannelMessages" title="pyrogram.raw.types.UpdateDeleteChannelMessages (Python class) — Some messages in a supergroup/channel were deleted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteChannelMessages</span></code></a></p></td>
+<td><p>Some messages in a supergroup/channel were deleted</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-delete-messages.html#pyrogram.raw.types.UpdateDeleteMessages" title="pyrogram.raw.types.UpdateDeleteMessages (Python class) — Messages were deleted."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteMessages</span></code></a></p></td>
+<td><p>Messages were deleted.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-delete-quick-reply.html#pyrogram.raw.types.UpdateDeleteQuickReply" title="pyrogram.raw.types.UpdateDeleteQuickReply (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteQuickReply</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-delete-quick-reply-messages.html#pyrogram.raw.types.UpdateDeleteQuickReplyMessages" title="pyrogram.raw.types.UpdateDeleteQuickReplyMessages (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteQuickReplyMessages</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-delete-scheduled-messages.html#pyrogram.raw.types.UpdateDeleteScheduledMessages" title="pyrogram.raw.types.UpdateDeleteScheduledMessages (Python class) — Some scheduled messages were deleted from the schedule queue of a chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteScheduledMessages</span></code></a></p></td>
+<td><p>Some scheduled messages were deleted from the schedule queue of a chat</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-dialog-filter.html#pyrogram.raw.types.UpdateDialogFilter" title="pyrogram.raw.types.UpdateDialogFilter (Python class) — A new folder was added"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogFilter</span></code></a></p></td>
+<td><p>A new folder was added</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-dialog-filter-order.html#pyrogram.raw.types.UpdateDialogFilterOrder" title="pyrogram.raw.types.UpdateDialogFilterOrder (Python class) — New folder order"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogFilterOrder</span></code></a></p></td>
+<td><p>New folder order</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-dialog-filters.html#pyrogram.raw.types.UpdateDialogFilters" title="pyrogram.raw.types.UpdateDialogFilters (Python class) — Clients should update folder info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogFilters</span></code></a></p></td>
+<td><p>Clients should update folder info</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-dialog-pinned.html#pyrogram.raw.types.UpdateDialogPinned" title="pyrogram.raw.types.UpdateDialogPinned (Python class) — A dialog was pinned/unpinned"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogPinned</span></code></a></p></td>
+<td><p>A dialog was pinned/unpinned</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-dialog-unread-mark.html#pyrogram.raw.types.UpdateDialogUnreadMark" title="pyrogram.raw.types.UpdateDialogUnreadMark (Python class) — The manual unread mark of a chat was changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogUnreadMark</span></code></a></p></td>
+<td><p>The manual unread mark of a chat was changed</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-draft-message.html#pyrogram.raw.types.UpdateDraftMessage" title="pyrogram.raw.types.UpdateDraftMessage (Python class) — Notifies a change of a message draft."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDraftMessage</span></code></a></p></td>
+<td><p>Notifies a change of a message draft.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-edit-channel-message.html#pyrogram.raw.types.UpdateEditChannelMessage" title="pyrogram.raw.types.UpdateEditChannelMessage (Python class) — A message was edited in a channel/supergroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEditChannelMessage</span></code></a></p></td>
+<td><p>A message was edited in a channel/supergroup</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-edit-message.html#pyrogram.raw.types.UpdateEditMessage" title="pyrogram.raw.types.UpdateEditMessage (Python class) — A message was edited"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEditMessage</span></code></a></p></td>
+<td><p>A message was edited</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-encrypted-chat-typing.html#pyrogram.raw.types.UpdateEncryptedChatTyping" title="pyrogram.raw.types.UpdateEncryptedChatTyping (Python class) — Interlocutor is typing a message in an encrypted chat. Update period is 6 second. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEncryptedChatTyping</span></code></a></p></td>
+<td><p>Interlocutor is typing a message in an encrypted chat.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-encrypted-messages-read.html#pyrogram.raw.types.UpdateEncryptedMessagesRead" title="pyrogram.raw.types.UpdateEncryptedMessagesRead (Python class) — Communication history in an encrypted chat was marked as read."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEncryptedMessagesRead</span></code></a></p></td>
+<td><p>Communication history in an encrypted chat was marked as read.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-encryption.html#pyrogram.raw.types.UpdateEncryption" title="pyrogram.raw.types.UpdateEncryption (Python class) — Change of state in an encrypted chat."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEncryption</span></code></a></p></td>
+<td><p>Change of state in an encrypted chat.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-faved-stickers.html#pyrogram.raw.types.UpdateFavedStickers" title="pyrogram.raw.types.UpdateFavedStickers (Python class) — The list of favorited stickers was changed, the client should call messages.getFavedStickers to refetch the new list"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateFavedStickers</span></code></a></p></td>
+<td><p>The list of favorited stickers was changed, the client should call messages.getFavedStickers to refetch the new list</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-folder-peers.html#pyrogram.raw.types.UpdateFolderPeers" title="pyrogram.raw.types.UpdateFolderPeers (Python class) — The peer list of a peer folder was updated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateFolderPeers</span></code></a></p></td>
+<td><p>The peer list of a peer folder was updated</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-geo-live-viewed.html#pyrogram.raw.types.UpdateGeoLiveViewed" title="pyrogram.raw.types.UpdateGeoLiveViewed (Python class) — Live geoposition message was viewed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGeoLiveViewed</span></code></a></p></td>
+<td><p>Live geoposition message was viewed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-group-call.html#pyrogram.raw.types.UpdateGroupCall" title="pyrogram.raw.types.UpdateGroupCall (Python class) — A new groupcall was started"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCall</span></code></a></p></td>
+<td><p>A new groupcall was started</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-group-call-connection.html#pyrogram.raw.types.UpdateGroupCallConnection" title="pyrogram.raw.types.UpdateGroupCallConnection (Python class) — New WebRTC parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCallConnection</span></code></a></p></td>
+<td><p>New WebRTC parameters</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-group-call-participants.html#pyrogram.raw.types.UpdateGroupCallParticipants" title="pyrogram.raw.types.UpdateGroupCallParticipants (Python class) — The participant list of a certain group call has changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCallParticipants</span></code></a></p></td>
+<td><p>The participant list of a certain group call has changed</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-inline-bot-callback-query.html#pyrogram.raw.types.UpdateInlineBotCallbackQuery" title="pyrogram.raw.types.UpdateInlineBotCallbackQuery (Python class) — This notification is received by bots when a button is pressed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateInlineBotCallbackQuery</span></code></a></p></td>
+<td><p>This notification is received by bots when a button is pressed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-lang-pack.html#pyrogram.raw.types.UpdateLangPack" title="pyrogram.raw.types.UpdateLangPack (Python class) — Language pack updated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLangPack</span></code></a></p></td>
+<td><p>Language pack updated</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-lang-pack-too-long.html#pyrogram.raw.types.UpdateLangPackTooLong" title="pyrogram.raw.types.UpdateLangPackTooLong (Python class) — A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLangPackTooLong</span></code></a></p></td>
+<td><p>A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-login-token.html#pyrogram.raw.types.UpdateLoginToken" title="pyrogram.raw.types.UpdateLoginToken (Python class) — A login token (for login via QR code) was accepted."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLoginToken</span></code></a></p></td>
+<td><p>A login token (for login via QR code) was accepted.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-message-extended-media.html#pyrogram.raw.types.UpdateMessageExtendedMedia" title="pyrogram.raw.types.UpdateMessageExtendedMedia (Python class) — Extended media update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageExtendedMedia</span></code></a></p></td>
+<td><p>Extended media update</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-message-id.html#pyrogram.raw.types.UpdateMessageID" title="pyrogram.raw.types.UpdateMessageID (Python class) — Sent message with random_id client identifier was assigned an identifier."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageID</span></code></a></p></td>
+<td><p>Sent message with random_id client identifier was assigned an identifier.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-message-poll.html#pyrogram.raw.types.UpdateMessagePoll" title="pyrogram.raw.types.UpdateMessagePoll (Python class) — The results of a poll have changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessagePoll</span></code></a></p></td>
+<td><p>The results of a poll have changed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-message-poll-vote.html#pyrogram.raw.types.UpdateMessagePollVote" title="pyrogram.raw.types.UpdateMessagePollVote (Python class) — A specific peer has voted in a poll"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessagePollVote</span></code></a></p></td>
+<td><p>A specific peer has voted in a poll</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-message-reactions.html#pyrogram.raw.types.UpdateMessageReactions" title="pyrogram.raw.types.UpdateMessageReactions (Python class) — New message reactions » are available"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageReactions</span></code></a></p></td>
+<td><p>New message reactions » are available</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-move-sticker-set-to-top.html#pyrogram.raw.types.UpdateMoveStickerSetToTop" title="pyrogram.raw.types.UpdateMoveStickerSetToTop (Python class) — A stickerset was just moved to top, see here for more info »"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMoveStickerSetToTop</span></code></a></p></td>
+<td><p>A stickerset was just moved to top, see here for more info »</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-authorization.html#pyrogram.raw.types.UpdateNewAuthorization" title="pyrogram.raw.types.UpdateNewAuthorization (Python class) — A new session logged into the current user's account through an unknown device."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewAuthorization</span></code></a></p></td>
+<td><p>A new session logged into the current user's account through an unknown device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-channel-message.html#pyrogram.raw.types.UpdateNewChannelMessage" title="pyrogram.raw.types.UpdateNewChannelMessage (Python class) — A new message was sent in a channel/supergroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewChannelMessage</span></code></a></p></td>
+<td><p>A new message was sent in a channel/supergroup</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-encrypted-message.html#pyrogram.raw.types.UpdateNewEncryptedMessage" title="pyrogram.raw.types.UpdateNewEncryptedMessage (Python class) — New encrypted message."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewEncryptedMessage</span></code></a></p></td>
+<td><p>New encrypted message.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-message.html#pyrogram.raw.types.UpdateNewMessage" title="pyrogram.raw.types.UpdateNewMessage (Python class) — New message in a private chat or in a basic group."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewMessage</span></code></a></p></td>
+<td><p>New message in a private chat or in a basic group.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-quick-reply.html#pyrogram.raw.types.UpdateNewQuickReply" title="pyrogram.raw.types.UpdateNewQuickReply (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewQuickReply</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-scheduled-message.html#pyrogram.raw.types.UpdateNewScheduledMessage" title="pyrogram.raw.types.UpdateNewScheduledMessage (Python class) — A message was added to the schedule queue of a chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewScheduledMessage</span></code></a></p></td>
+<td><p>A message was added to the schedule queue of a chat</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-sticker-set.html#pyrogram.raw.types.UpdateNewStickerSet" title="pyrogram.raw.types.UpdateNewStickerSet (Python class) — A new stickerset was installed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewStickerSet</span></code></a></p></td>
+<td><p>A new stickerset was installed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-story-reaction.html#pyrogram.raw.types.UpdateNewStoryReaction" title="pyrogram.raw.types.UpdateNewStoryReaction (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewStoryReaction</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-notify-settings.html#pyrogram.raw.types.UpdateNotifySettings" title="pyrogram.raw.types.UpdateNotifySettings (Python class) — Changes in notification settings."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNotifySettings</span></code></a></p></td>
+<td><p>Changes in notification settings.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-paid-reaction-privacy.html#pyrogram.raw.types.UpdatePaidReactionPrivacy" title="pyrogram.raw.types.UpdatePaidReactionPrivacy (Python class) — Telegram API type."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePaidReactionPrivacy</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-peer-blocked.html#pyrogram.raw.types.UpdatePeerBlocked" title="pyrogram.raw.types.UpdatePeerBlocked (Python class) — We blocked a peer, see here » for more info on blocklists."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerBlocked</span></code></a></p></td>
+<td><p>We blocked a peer, see here » for more info on blocklists.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-peer-history-ttl.html#pyrogram.raw.types.UpdatePeerHistoryTTL" title="pyrogram.raw.types.UpdatePeerHistoryTTL (Python class) — The Time-To-Live for messages sent by the current user in a specific chat has changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerHistoryTTL</span></code></a></p></td>
+<td><p>The Time-To-Live for messages sent by the current user in a specific chat has changed</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-peer-located.html#pyrogram.raw.types.UpdatePeerLocated" title="pyrogram.raw.types.UpdatePeerLocated (Python class) — List of peers near you was updated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerLocated</span></code></a></p></td>
+<td><p>List of peers near you was updated</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-peer-settings.html#pyrogram.raw.types.UpdatePeerSettings" title="pyrogram.raw.types.UpdatePeerSettings (Python class) — Settings of a certain peer have changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerSettings</span></code></a></p></td>
+<td><p>Settings of a certain peer have changed</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-peer-wallpaper.html#pyrogram.raw.types.UpdatePeerWallpaper" title="pyrogram.raw.types.UpdatePeerWallpaper (Python class) — The wallpaper » of a given peer has changed."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerWallpaper</span></code></a></p></td>
+<td><p>The wallpaper » of a given peer has changed.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pending-join-requests.html#pyrogram.raw.types.UpdatePendingJoinRequests" title="pyrogram.raw.types.UpdatePendingJoinRequests (Python class) — Someone has requested to join a chat or channel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePendingJoinRequests</span></code></a></p></td>
+<td><p>Someone has requested to join a chat or channel</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-phone-call.html#pyrogram.raw.types.UpdatePhoneCall" title="pyrogram.raw.types.UpdatePhoneCall (Python class) — An incoming phone call"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePhoneCall</span></code></a></p></td>
+<td><p>An incoming phone call</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-phone-call-signaling-data.html#pyrogram.raw.types.UpdatePhoneCallSignalingData" title="pyrogram.raw.types.UpdatePhoneCallSignalingData (Python class) — Incoming phone call signaling payload"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePhoneCallSignalingData</span></code></a></p></td>
+<td><p>Incoming phone call signaling payload</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-pinned-channel-messages.html#pyrogram.raw.types.UpdatePinnedChannelMessages" title="pyrogram.raw.types.UpdatePinnedChannelMessages (Python class) — Messages were pinned/unpinned in a channel/supergroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedChannelMessages</span></code></a></p></td>
+<td><p>Messages were pinned/unpinned in a channel/supergroup</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pinned-dialogs.html#pyrogram.raw.types.UpdatePinnedDialogs" title="pyrogram.raw.types.UpdatePinnedDialogs (Python class) — Pinned dialogs were updated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedDialogs</span></code></a></p></td>
+<td><p>Pinned dialogs were updated</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-pinned-messages.html#pyrogram.raw.types.UpdatePinnedMessages" title="pyrogram.raw.types.UpdatePinnedMessages (Python class) — Some messages were pinned in a chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedMessages</span></code></a></p></td>
+<td><p>Some messages were pinned in a chat</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pinned-saved-dialogs.html#pyrogram.raw.types.UpdatePinnedSavedDialogs" title="pyrogram.raw.types.UpdatePinnedSavedDialogs (Python class) — Pinned saved dialogs » were updated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedSavedDialogs</span></code></a></p></td>
+<td><p>Pinned saved dialogs » were updated</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-privacy.html#pyrogram.raw.types.UpdatePrivacy" title="pyrogram.raw.types.UpdatePrivacy (Python class) — Privacy rules were changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePrivacy</span></code></a></p></td>
+<td><p>Privacy rules were changed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pts-changed.html#pyrogram.raw.types.UpdatePtsChanged" title="pyrogram.raw.types.UpdatePtsChanged (Python class) — Common message box sequence PTS has changed, state has to be refetched using updates.getState"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePtsChanged</span></code></a></p></td>
+<td><p>Common message box sequence PTS has changed, state has to be refetched using updates.getState</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-quick-replies.html#pyrogram.raw.types.UpdateQuickReplies" title="pyrogram.raw.types.UpdateQuickReplies (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateQuickReplies</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-quick-reply-message.html#pyrogram.raw.types.UpdateQuickReplyMessage" title="pyrogram.raw.types.UpdateQuickReplyMessage (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateQuickReplyMessage</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-channel-discussion-inbox.html#pyrogram.raw.types.UpdateReadChannelDiscussionInbox" title="pyrogram.raw.types.UpdateReadChannelDiscussionInbox (Python class) — Incoming comments in a discussion thread were marked as read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelDiscussionInbox</span></code></a></p></td>
+<td><p>Incoming comments in a discussion thread were marked as read</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-channel-discussion-outbox.html#pyrogram.raw.types.UpdateReadChannelDiscussionOutbox" title="pyrogram.raw.types.UpdateReadChannelDiscussionOutbox (Python class) — Outgoing comments in a discussion thread were marked as read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelDiscussionOutbox</span></code></a></p></td>
+<td><p>Outgoing comments in a discussion thread were marked as read</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-channel-inbox.html#pyrogram.raw.types.UpdateReadChannelInbox" title="pyrogram.raw.types.UpdateReadChannelInbox (Python class) — Incoming messages in a channel/supergroup were read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelInbox</span></code></a></p></td>
+<td><p>Incoming messages in a channel/supergroup were read</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-channel-outbox.html#pyrogram.raw.types.UpdateReadChannelOutbox" title="pyrogram.raw.types.UpdateReadChannelOutbox (Python class) — Outgoing messages in a channel/supergroup were read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelOutbox</span></code></a></p></td>
+<td><p>Outgoing messages in a channel/supergroup were read</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-featured-emoji-stickers.html#pyrogram.raw.types.UpdateReadFeaturedEmojiStickers" title="pyrogram.raw.types.UpdateReadFeaturedEmojiStickers (Python class) — Some featured custom emoji stickers were marked as read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadFeaturedEmojiStickers</span></code></a></p></td>
+<td><p>Some featured custom emoji stickers were marked as read</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-featured-stickers.html#pyrogram.raw.types.UpdateReadFeaturedStickers" title="pyrogram.raw.types.UpdateReadFeaturedStickers (Python class) — Some featured stickers were marked as read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadFeaturedStickers</span></code></a></p></td>
+<td><p>Some featured stickers were marked as read</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-history-inbox.html#pyrogram.raw.types.UpdateReadHistoryInbox" title="pyrogram.raw.types.UpdateReadHistoryInbox (Python class) — Incoming messages were read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadHistoryInbox</span></code></a></p></td>
+<td><p>Incoming messages were read</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-history-outbox.html#pyrogram.raw.types.UpdateReadHistoryOutbox" title="pyrogram.raw.types.UpdateReadHistoryOutbox (Python class) — Outgoing messages were read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadHistoryOutbox</span></code></a></p></td>
+<td><p>Outgoing messages were read</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-messages-contents.html#pyrogram.raw.types.UpdateReadMessagesContents" title="pyrogram.raw.types.UpdateReadMessagesContents (Python class) — Contents of messages in the common message box were read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadMessagesContents</span></code></a></p></td>
+<td><p>Contents of messages in the common message box were read</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-stories.html#pyrogram.raw.types.UpdateReadStories" title="pyrogram.raw.types.UpdateReadStories (Python class) — Stories of a specific peer were marked as read."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadStories</span></code></a></p></td>
+<td><p>Stories of a specific peer were marked as read.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-recent-emoji-statuses.html#pyrogram.raw.types.UpdateRecentEmojiStatuses" title="pyrogram.raw.types.UpdateRecentEmojiStatuses (Python class) — The list of recent emoji statuses has changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentEmojiStatuses</span></code></a></p></td>
+<td><p>The list of recent emoji statuses has changed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-recent-reactions.html#pyrogram.raw.types.UpdateRecentReactions" title="pyrogram.raw.types.UpdateRecentReactions (Python class) — The list of recent message reactions has changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentReactions</span></code></a></p></td>
+<td><p>The list of recent message reactions has changed</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-recent-stickers.html#pyrogram.raw.types.UpdateRecentStickers" title="pyrogram.raw.types.UpdateRecentStickers (Python class) — The recent sticker list was updated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentStickers</span></code></a></p></td>
+<td><p>The recent sticker list was updated</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-saved-dialog-pinned.html#pyrogram.raw.types.UpdateSavedDialogPinned" title="pyrogram.raw.types.UpdateSavedDialogPinned (Python class) — A saved message dialog was pinned/unpinned"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedDialogPinned</span></code></a></p></td>
+<td><p>A saved message dialog was pinned/unpinned</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-saved-gifs.html#pyrogram.raw.types.UpdateSavedGifs" title="pyrogram.raw.types.UpdateSavedGifs (Python class) — The saved gif list has changed, the client should refetch it using messages.getSavedGifs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedGifs</span></code></a></p></td>
+<td><p>The saved gif list has changed, the client should refetch it using messages.getSavedGifs</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-saved-reaction-tags.html#pyrogram.raw.types.UpdateSavedReactionTags" title="pyrogram.raw.types.UpdateSavedReactionTags (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedReactionTags</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-saved-ringtones.html#pyrogram.raw.types.UpdateSavedRingtones" title="pyrogram.raw.types.UpdateSavedRingtones (Python class) — The list of saved notification sounds has changed, use account.getSavedRingtones to fetch the new list."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedRingtones</span></code></a></p></td>
+<td><p>The list of saved notification sounds has changed, use account.getSavedRingtones to fetch the new list.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-sent-story-reaction.html#pyrogram.raw.types.UpdateSentStoryReaction" title="pyrogram.raw.types.UpdateSentStoryReaction (Python class) — Indicates we reacted to a story »."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSentStoryReaction</span></code></a></p></td>
+<td><p>Indicates we reacted to a story ».</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-service-notification.html#pyrogram.raw.types.UpdateServiceNotification" title="pyrogram.raw.types.UpdateServiceNotification (Python class) — A service message for the user."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateServiceNotification</span></code></a></p></td>
+<td><p>A service message for the user.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-sms-job.html#pyrogram.raw.types.UpdateSmsJob" title="pyrogram.raw.types.UpdateSmsJob (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSmsJob</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-star-gift-upgraded.html#pyrogram.raw.types.UpdateStarGiftUpgraded" title="pyrogram.raw.types.UpdateStarGiftUpgraded (Python class) — Telegram API type."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStarGiftUpgraded</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-stars-balance.html#pyrogram.raw.types.UpdateStarsBalance" title="pyrogram.raw.types.UpdateStarsBalance (Python class) — {schema}"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStarsBalance</span></code></a></p></td>
+<td><p>{schema}</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-stars-revenue-status.html#pyrogram.raw.types.UpdateStarsRevenueStatus" title="pyrogram.raw.types.UpdateStarsRevenueStatus (Python class) — Telegram API type."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStarsRevenueStatus</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-sticker-sets.html#pyrogram.raw.types.UpdateStickerSets" title="pyrogram.raw.types.UpdateStickerSets (Python class) — Installed stickersets have changed, the client should refetch them as described in the docs."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStickerSets</span></code></a></p></td>
+<td><p>Installed stickersets have changed, the client should refetch them as described in the docs.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-sticker-sets-order.html#pyrogram.raw.types.UpdateStickerSetsOrder" title="pyrogram.raw.types.UpdateStickerSetsOrder (Python class) — The order of stickersets was changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStickerSetsOrder</span></code></a></p></td>
+<td><p>The order of stickersets was changed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-stories-stealth-mode.html#pyrogram.raw.types.UpdateStoriesStealthMode" title="pyrogram.raw.types.UpdateStoriesStealthMode (Python class) — Indicates that stories stealth mode was activated."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStoriesStealthMode</span></code></a></p></td>
+<td><p>Indicates that stories stealth mode was activated.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-story.html#pyrogram.raw.types.UpdateStory" title="pyrogram.raw.types.UpdateStory (Python class) — A new story was posted."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStory</span></code></a></p></td>
+<td><p>A new story was posted.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-story-id.html#pyrogram.raw.types.UpdateStoryID" title="pyrogram.raw.types.UpdateStoryID (Python class) — A story was successfully uploaded."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStoryID</span></code></a></p></td>
+<td><p>A story was successfully uploaded.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-theme.html#pyrogram.raw.types.UpdateTheme" title="pyrogram.raw.types.UpdateTheme (Python class) — A cloud theme was updated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateTheme</span></code></a></p></td>
+<td><p>A cloud theme was updated</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-transcribe-audio.html#pyrogram.raw.types.UpdateTranscribeAudio" title="pyrogram.raw.types.UpdateTranscribeAudio (Python class) — Telegram API type."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateTranscribeAudio</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-transcribed-audio.html#pyrogram.raw.types.UpdateTranscribedAudio" title="pyrogram.raw.types.UpdateTranscribedAudio (Python class) — A pending voice message transcription » initiated with messages.transcribeAudio was updated."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateTranscribedAudio</span></code></a></p></td>
+<td><p>A pending voice message transcription » initiated with messages.transcribeAudio was updated.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-user.html#pyrogram.raw.types.UpdateUser" title="pyrogram.raw.types.UpdateUser (Python class) — User information was updated, it must be refetched using users.getFullUser."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUser</span></code></a></p></td>
+<td><p>User information was updated, it must be refetched using users.getFullUser.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-user-emoji-status.html#pyrogram.raw.types.UpdateUserEmojiStatus" title="pyrogram.raw.types.UpdateUserEmojiStatus (Python class) — The emoji status of a certain user has changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserEmojiStatus</span></code></a></p></td>
+<td><p>The emoji status of a certain user has changed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-user-name.html#pyrogram.raw.types.UpdateUserName" title="pyrogram.raw.types.UpdateUserName (Python class) — Changes the user's first name, last name and username."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserName</span></code></a></p></td>
+<td><p>Changes the user's first name, last name and username.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-user-phone.html#pyrogram.raw.types.UpdateUserPhone" title="pyrogram.raw.types.UpdateUserPhone (Python class) — A user's phone number was changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserPhone</span></code></a></p></td>
+<td><p>A user's phone number was changed</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-user-status.html#pyrogram.raw.types.UpdateUserStatus" title="pyrogram.raw.types.UpdateUserStatus (Python class) — Contact status update."><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserStatus</span></code></a></p></td>
+<td><p>Contact status update.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-user-typing.html#pyrogram.raw.types.UpdateUserTyping" title="pyrogram.raw.types.UpdateUserTyping (Python class) — The user is preparing a message; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserTyping</span></code></a></p></td>
+<td><p>The user is preparing a message; typing, recording, uploading, etc.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-web-page.html#pyrogram.raw.types.UpdateWebPage" title="pyrogram.raw.types.UpdateWebPage (Python class) — An instant view webpage preview was generated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateWebPage</span></code></a></p></td>
+<td><p>An instant view webpage preview was generated</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-web-view-result-sent.html#pyrogram.raw.types.UpdateWebViewResultSent" title="pyrogram.raw.types.UpdateWebViewResultSent (Python class) — Indicates to a bot that a webview was closed and an inline message was sent on behalf of the user using messages.sendWebViewResultMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateWebViewResultSent</span></code></a></p></td>
+<td><p>Indicates to a bot that a webview was closed and an inline message was sent on behalf of the user using messages.sendWebViewResultMessage</p></td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</dd></dl>
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="top-peer-category-peers.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: TopPeerCategoryPeers" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              TopPeerCategoryPeers
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="updates.html" class="md-footer__link md-footer__link--next" aria-label="Next: Updates" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Updates
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  
+  
+  <div class="md-footer-meta md-typeset">
+    
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand", "navigation.tabs", "navigation.sections", "navigation.top", "search.share", "toc.follow", "toc.sticky", "content.tabs.link", "announce.dismiss"], "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+      
+        <script src="../../_static/sphinx_immaterial_theme.f9d9eeeb247ace16c.min.js?v=8ec58cb5"></script>
+        <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../../_static/copybutton.js?v=a56c686a"></script>
+    
+  </body>
+</html>
